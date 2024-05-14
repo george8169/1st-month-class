@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper{
+            border: medium solid blue;
+            height: 85vh;
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+            /* perspective: 1000px; */
+        }
+
+        .items{
+            border: inherit;
+            width: 300px;
+            height: 300px;
+            background-color: blue;
+            transition-property: width, height, transform;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+        }
+
+        .items:hover{
+            width: 600px;
+            height: 550px;
+            transform: rotate(130deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+</body>
+</html>

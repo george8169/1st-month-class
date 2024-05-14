@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.circle{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    border: medium solid black;
+    border-radius: 400px;
+    position: relative;
+    
+}
+
+.circle2{
+    border: inherit;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 400px;
+    position: relative;
+    top: 120px;
+    right: 0px;
+    background-color: black;
+}
+
+strong{
+    position: relative;
+    bottom: 27px;
+    left: 8px;
+}
+
+.fan1{
+    display: grid;
+    border: medium solid;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin: auto;
+    transform: rotate(45deg);
+    position: relative;
+    right: 80px;
+    top: 10px;
+    background-color: black;
+    mix-blend-mode: lighten;
+    animation-name: fan;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes fan{
+    0%{
+        transform: rotate(2900deg);
+    }
+}
+
+
+
+.fan2{
+    background-color: black;
+    display: grid;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin: auto;
+    transform: rotate(130deg);
+    position: relative;
+    right: 80px;
+    bottom: 10px;
+    animation-name: fan;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    
+}
+
+
+
+.grid{
+    border: medium solid black;
+    border-radius: 1px;
+    height: 250px;
+    width: 30px;
+    margin: auto;
+}
+
+.grid2{
+    border: inherit;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 20px;
+    background-color: blue;
+    width: 22px;
+    margin-left: 1px;
+}
+
+
+.grid3{
+    border: inherit;
+    margin-top: 30px;
+    height: 20px;
+    width: 22px;
+    margin-left: 1px;
+    border-radius: 10px;
+    background-color: rgba(230, 230, 20, 0.699);
+}
+
+
+.grid4{
+    border: inherit;
+    margin-top: 30px;
+    height: 20px;
+    border-radius: 20px;
+    width: 22px;
+    margin-left: 1px;
+    background-color: #0cee0caf;
+}
+
+
+.grid5{
+    border: medium solid;
+    width: 300px;
+    margin: auto;
+    height: 15px;
+    background-color: black;
+}
+
+
+/* .fan3{
+    display: grid;
+    border: medium solid rgba(245, 222, 179, 0.395);
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin: auto;
+    transform: rotate(450deg);
+    position: relative;
+    right: 80px;
+    bottom: 28px;
+} */
+
+/* .fan4{
+    display: grid;
+    border: medium solid rgba(245, 222, 179, 0.397);
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin: auto;
+    transform: rotate(450deg);
+    position: relative;
+    right: 80px;
+    bottom: 50px;
+} */
+
+    

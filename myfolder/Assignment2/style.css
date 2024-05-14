@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.thomex{
+    color: blue;
+    text-align: center;
+}
+.body{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #e9e2eb;
+    margin: 20px 130px;
+
+}
+h2{
+    color: black;
+    font-size: 30px;
+}
+hr{
+    padding-top: 20px;
+}
+.first{
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+.Mobile{
+    padding: 10px;
+    padding-right: 200px;
+    border-radius: 6px;
+
+}
+
+.signup{
+    color: white;
+    background-color: #00a400;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 15px;
+    box-shadow: none;
+    
+}
+
+.P{
+    text-align: left;
+}

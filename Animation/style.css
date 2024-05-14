@@ -1,0 +1,30 @@
+/* div {
+
+    background-color: rgb(0, 227, 27);
+    width: 500px;
+    height: 500px;
+    animation: 1s GG ease-in-out infinite;
+}
+
+
+@keyframes GG {
+
+    0%{
+        opacity: 20;
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: brown;
+    }
+    75%{
+        background-color: chartreuse;
+    }
+    100%{
+        background-color: black;
+    }
+
+
+
+} */

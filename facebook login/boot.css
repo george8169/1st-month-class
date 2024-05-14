@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: #f0f2f5;
+    width: 100%;
+}
+.wrap{
+    margin-top: 150px;
+
+}
+
+.btn1{
+    margin-left: 130px;
+}
+
+.bor{
+    margin-right: 20px;
+    width: 60%;
+    border-radius: 10px;
+    border: medium solid #FFF;
+    background-color: #FFF;
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+.p{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.forgot:hover{
+    text-decoration: underline black;
+    
+}
+
+
+.crea{
+width: 100%;
+font-weight: 300;
+position: relative;
+top: 40px;
+text-align: center;
+}
+
+.bb{
+/* position: relative; */
+/* top: 30px; */
+text-indent: 3em;
+color: #000000;
+text-decoration: none;
+font-weight: 600;
+cursor: pointer;
+/* text-decoration: underline ; */
+}
+
+.bb:hover{
+text-decoration: underline;
+}
+
+@media(max-width: 990px){
+    .bor{
+        /* margin-right: 20px; */
+        width: 100%;
+    }
+
+    .btn1{
+        margin-right: 50px;
+        width: 70%;
+        position: relative;
+        right: 80px;
+    }
+
+    .wrap1{
+        width: 800px;
+    }
+    .p{
+        font-size: 20px;
+        margin-left: 20px;    
+    }
+
+    .imgg{
+        position: relative;
+        right: 300px;
+    }
+}
+
+@media(max-width: 210px){
+    .wrap1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bor{
+        margin-top: 200px;
+        width: 70%;
+        margin-left: 110px;
+    }
+
+    .p{
+        width: 10%;
+        font-size: 60px;
+        /* text-align: center; */
+        margin-left: 100px;
+    }
+
+    .fav{
+        text-align: center;
+    }
+
+    .btn1{
+        margin-left: 220px;
+        width: 50%;
+    }
+
+}

@@ -1,0 +1,42 @@
+td{
+    padding: 2em;
+    border-collapse: collapse;
+}
+table{
+    margin: auto;
+    width: 50%;
+}
+.white{
+    background-color: white;
+
+}
+
+.black{
+    background-color: black;
+}
+.black1 {
+    background-color: blue;
+    animation: 1s Card ease-out ;
+}
+
+.black1:hover {
+    background-color: white;
+}
+
+@keyframes Card {
+    0%{
+        opacity: 1;
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: brown;
+    }
+    75%{
+        background-color: pink;
+    }
+    100%{
+        background-color: darkcyan;
+    }
+}

@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+
+
+nav{
+    /* display: flex; */
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    margin: auto;
+}
+
+header nav .nav2 ul a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+img{
+    width: 170px;
+    margin-right: 190px;
+    position: relative;
+    right: 40px;
+
+
+}
+.nav1{
+    /* margin-right: 190px; */
+    
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .nav2 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    list-style-type: none;
+    
+}
+
+header nav .nav2 ul a{
+    text-decoration: none;
+    color: black;
+
+}
+.header1{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+header{
+    background-color: #FFFFFF;
+    /* background-attachment: scroll; */
+    /* position: initial; */
+    margin-top: 30px;
+}
+
+/* section1 */
+
+.nav3 {
+    /* display: flex; */
+    font-size: 25px;
+    margin-left: 100px;
+    position: relative;
+    top: 190px;
+    /* height: 70vh; */
+
+}
+
+.nav3 h1{
+    font-size: 40px;
+}
+
+.nav4{
+    margin-top: 40px;
+    position: absolute;
+    right: 30px;
+    /* font-size: medium; */
+    font-weight: 450;
+    line-height: 1.4;
+    font-size: 15px;
+    font-size: BOLD;
+}
+
+
+.img2{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 180px;
+    top: 200px;
+}
+
+.sec1{
+    display: flex;
+}
+
+button{
+    background-color: #e03131;
+    padding: 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: bold;
+}
+
+.btn1{
+    background-color: #e03131;
+    padding: 15px 50px;
+    border-radius: 25px;
+    position: relative;
+    top: 200px;
+    color: #fff;
+    font-size: bold;
+}
+
+h2{
+    font-weight: unset;
+    font-size: 1em;
+}
+
+/* section 3 */
+
+.top1{
+    display: flex;
+    margin-top: 300px;
+}
